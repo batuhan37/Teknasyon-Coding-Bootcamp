@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İkinci Hafta Örnekler</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+        
+    <section>
+
+
+        <table border="2" width="400">
+			
+            <th colspan="3" align="center">Tabloda rowspan colspan kullanımı</th>
+           <tr>
+   
+               <td>1</td>
+               <td rowspan="2" align="center">2</td>
+               
+               <td>3</td>
+           </tr>
+           
+           <tr>
+               <td rowspan="2"align="center">4</td>
+               <td>5</td>
+           </tr>
+           
+           <tr>
+               <td>7</td>
+               <td>8</td>
+           </tr>
+           
+       </table>
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+        <h1>HTML FORM ELEMENTS</h1>
+        <form action="" method="post" >
+            
+            <fieldset>
+                <legend>
+                    Sözleşme onayı
+                </legend>
+                
+                <label>
+                    <input type="checkbox" id="onay" name="onay" value="1" required>
+                    Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi onaylıyorum.
+                </label> <br>
+
+                <input type="submit" id="btnkaydet" name="btnkaydet" value="Formu Kaydet">
+                <input type="reset" name="btnkaydet" id="btnkaydet" value="Temizle">
+                
+            </fieldset>
+            <br>
+
+
+
+            <fieldset>
+                <legend>Kullanıcı Bilgileri</legend>
+
+                <table id="KullaniciBilgileri">
+
+                    <tr>
+                        <td>T.C Kimlik No</td>
+                        <td><input type="text" name="tckn" id="tckn" value=""  required></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Ad</td>
+                        <td><input type="text" name="ad" id="ad" value=""></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Soyad</td>
+                        <td><input type="text" name="soyad" id="soyad" value=""></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Yaş</td>
+                        <td><input type="number" name="yas" id="yas" value="18" min="18" max="40"></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Mail Adresi</td>
+                        <td><input type="email" name="mail" id="mail" value=".com" ></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Fotoğraf Ekle</td>
+                        <td><input type="file" name="ekle" id="ekle" value="Fotoğraf Ekle" accept=".doc,.docx,"></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Kullanıcı Şifresi</td>
+                        <td><input type="password" name="sifre" id="sifre" value="" ></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Diğer Bilgiler
+                </legend>
+
+                <table>
+
+                    <th colspan="2">Buradaki Alanlar Mesleki Deneyimi Kapsar</th>
+                    <tr>
+                        <td>İşe Giriş Tarihi</td>
+                        <td> <input type="date" name="tarih" id="tarih" value="20.02.2022"></td>
+                    </tr>
+
+                    <tr>
+                        <td>İş Deneyimi</td>
+                        <td> 
+
+                            
+                          
+                                <input type="radio" name="isdeneyimi" id="isdeneyimi1">
+                                <label for="isdeneyimi1"> 1-5 Yıl </label>
+                            <br>
+
+                            <label>
+                                <input type="radio" name="isdeneyimi" id="isdeneyimi2"> 6-10 Yıl
+                            </label> <br>
+
+                            <label>
+                                <input type="radio" name="isdeneyimi" id="isdeneyimi3"> 11-15 Yıl
+                            </label> <br>
+
+                            <label>
+                                <input type="radio" name="isdeneyimi" id="isdeneyimi4"> 15 Yıl Üzeri
+                            </label> <br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Programlama Dilleri</td>
+                        <td>
+                            <select name="pdil" id="pdil">
+                                 <option value="1">C#</option> 
+                                 <option value="2">Javascript</option> 
+                                 <option value="3">Python</option> 
+                                 <option value="4">PHP</option> 
+                                 <optgroup label="lbl">
+                                     <option value="5">asd</option>
+                                     <option value="6">asd</option>
+                                     <option value="7" >asd</option>
+                                 </optgroup>  
+                            </select>
+
+                </table>
+            </fieldset>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+
+
+    </footer>
+</body>
+</html>
