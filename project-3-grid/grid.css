@@ -1,0 +1,34 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: 20vh 60vh 20vh;  
+    grid-template-columns: 20% 1fr 20%;
+    height: 100vh;
+    margin: 0;
+    }  
+  header, footer, article, nav, aside {
+    padding: 1em;
+    
+    }
+  #pageHeader {
+    grid-area: header;
+    background: yellowgreen;
+    }
+  #pageFooter {
+    grid-area: footer;
+    background: yellowgreen;
+    }
+  #mainArticle { 
+    grid-area: article;      
+    }
+  #mainNav { 
+    grid-area: nav; 
+    background: beige;
+    }
+  #mainaside { 
+    grid-area: ads; 
+    background: beige;
+    } 

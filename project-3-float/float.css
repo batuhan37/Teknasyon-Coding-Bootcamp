@@ -1,0 +1,60 @@
+*, body{
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+}
+header    {
+    background-color: yellowgreen;
+    height: 20vh;
+    
+}
+main {
+    min-height: calc(100vh - 40vh);
+    width: 100%;
+  }
+article, nav, aside{
+    float: left;
+   
+}
+
+nav{
+    width: 25%;
+    min-height: calc(100vh - 40vh);
+    
+    float: left;
+    box-sizing: border-box;
+    background: beige;
+}
+
+article{
+    width:50%;
+    min-height: calc(100vh - 40vh);
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+aside{
+    width: 25%;
+    min-height: calc(100vh - 40vh);
+    float: left;
+    box-sizing: border-box;
+    background: beige;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+  }
+
+footer {
+    background: yellowgreen;
+    height: 20vh;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
