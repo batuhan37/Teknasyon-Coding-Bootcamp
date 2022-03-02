@@ -1,0 +1,117 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.logo{
+    height: 5vh;
+    margin: 3px;
+}
+
+.container{
+    margin: auto;
+    width: 60vw;
+    
+}
+
+.site-header{
+    box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+hr{
+    box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
+}
+.links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.links li a{
+    color: #37112c;
+
+}
+
+.btn{
+    background: linear-gradient(45deg,#000000,#3f1117);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 25px;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+    margin: 40px 0px;
+    height: 50vh;
+    
+}
+.article{
+
+    background-color: #fdf6f9;
+    position: relative;
+    width: 60%;
+    text-align: left;
+    border-radius:  20px 0px 0px 20px;
+    box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.article h1{
+    margin: 20px 40px;
+    font-size: 20px;
+}
+
+.article p{
+
+    margin: 0px 40px;
+    font-size: 16px;
+}
+
+.banner{
+    position: absolute;
+    bottom: 0px;
+    right: 9vw;
+    align-items: center;
+    width: 45vh;
+}
+
+.login{
+    background-color: white;
+    width: 40%;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+label{
+    color: #ff2d7d;
+}
+
+input{
+    font-size: 17px;
+    height: 5vh;
+    margin: 10px;
+}
+
+.pass{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20% 0px;
+}
+
+
+
