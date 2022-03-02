@@ -46,9 +46,10 @@ hr{
 .btn{
     background: linear-gradient(45deg,#000000,#3f1117);
     color: white;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 8px 25px;
     box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    cursor: pointer;
 }
 
 section{
@@ -111,7 +112,21 @@ input{
     justify-content: center;
     flex-wrap: wrap;
     margin: 20% 0px;
+    position: relative;
 }
 
+.pass span{
 
+    position: absolute;
+    left: 0px;
+    margin-left: 55px;
+
+}
+
+.pass .btn{
+    position: absolute;
+    right: 8.5vh;
+    top: 22vh;
+    padding: 10px 35px;
+}
 
