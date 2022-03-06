@@ -8,8 +8,8 @@
 * [project-3-flexbox](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-3-flexbox/)
 * [project-3-float](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-3-float/)
 * [project-3-grid](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-3-grid/)
-* [project-4](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-4)
-* [project-5](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-5)
+* [project-4](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-4) FlexBox Design
+* [project-5](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-5) Grid Design
 
 
 ## Used Technologies
