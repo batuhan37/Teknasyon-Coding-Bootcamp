@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,57 +8,72 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <main>
 
-        
-           
-            <header class="site-header">
-                
-                <div class="container">
-                  <nav>
-                      <img src="img/logo.png" class="logo">
-
-                            <ul class="links">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Screenshot</a></li>
-                                <li class="btn">DOWNLOAD</li>
-                           </ul>
-                   </nav>
-                 </div>
-                
-
-             </header>
-
-             <div class="container">
-            
-                <section>
-
-    
-                    <div class="article">
-                        <h1>Şifreyi Sıfırla</h1>
-                        <p>Şifreni sıfırlama isteğini aldık. Lütfen yeni şifrenizi <br> oluşturunuz. Yeni şifrenizi tüm cihazlarınızda <br> girmenzi gerekecektir.</p>
-
-                        <img src="img/banner.png" class="banner">
-                    </div>
-
-                    <div class="login">
-                        
-                       <form action="" class="pass">
-
-                        <label > <span>Yeni Şifre </span> <br> <input type="password" name="password"></label> <br>
-                        <label > <span>Yeni Şifre Tekrar</span>  <br> <input type="password" name="password"></label>
-                        <li class="btn">ONAYLA</li>
-                        </form>
-                        
-                    </div>  
-                        
-
-                 </section>
 
 
+        <header class="site-header">
+
+            <div class="container">
+                <nav>
+                    <img src="img/logo.png" class="logo">
+
+                    <ul class="links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Screenshot</a></li>
+                        <li class="btn">DOWNLOAD</li>
+                    </ul>
+                </nav>
             </div>
+
+
+        </header>
+
+        <div class="container">
+
+            <section>
+
+
+                <div class="article">
+                    <h1>Şifreyi Sıfırla</h1>
+                    <p>Şifreni sıfırlama isteğini aldık. Lütfen yeni şifrenizi <br> oluşturunuz. Yeni şifrenizi tüm
+                        cihazlarınızda <br> girmenzi gerekecektir.</p>
+
+                    <img src="img/banner.png" class="banner">
+                </div>
+
+                <div class="login">
+
+                    <form action="" class="pass">
+
+                        <div class="input-container">
+                            <label class="input-label" for="password">Yeni Şifre</label>
+                            <input id="password" type="password" name="password">
+                        </div>
+
+                        <div class="input-container">
+                            <label class="input-label" for="passwordRetry">Yeni Şifre Tekrar</label>
+                            <input id="passwordRetry" type="password" name="passwordRetry">
+                        </div>
+
+                        <!-- <li class="btn">ONAYLA</li> -->
+                        <div class="button-container">
+                            <button class="btn">
+                                Onayla
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+
+
+            </section>
+
+
+        </div>
 
 
 
@@ -73,6 +89,5 @@
     </main>
 
 </body>
+
 </html>
-
-

@@ -1,50 +1,50 @@
-*{
+* {
     text-decoration: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 10px;
 }
 
-.logo{
+.logo {
     height: 5vh;
     margin: 3px;
 }
 
-.container{
+.container {
     margin: auto;
     width: 60vw;
-    
+
 }
 
-.site-header{
+.site-header {
     box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
 }
-nav{
-    
+
+nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    
+
 }
 
-hr{
+hr {
     box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
 }
+
 .links li {
     display: inline-block;
     margin: 0 10px;
 }
 
-.links li a{
+.links li a {
     color: #37112c;
-
 }
 
-.btn{
-    background: linear-gradient(45deg,#000000,#3f1117);
+.btn {
+    background: linear-gradient(45deg, #000000, #3f1117);
     color: white;
     border-radius: 3px;
     padding: 8px 25px;
@@ -52,36 +52,37 @@ hr{
     cursor: pointer;
 }
 
-section{
+section {
     display: flex;
     justify-content: space-between;
-    text-align: center; 
+    text-align: center;
     margin: 40px 0px;
     height: 50vh;
-    
+
 }
-.article{
+
+.article {
 
     background-color: #fdf6f9;
     position: relative;
     width: 60%;
     text-align: left;
-    border-radius:  20px 0px 0px 20px;
+    border-radius: 20px 0px 0px 20px;
     box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
 }
 
-.article h1{
+.article h1 {
     margin: 20px 40px;
     font-size: 20px;
 }
 
-.article p{
+.article p {
 
     margin: 0px 40px;
     font-size: 16px;
 }
 
-.banner{
+.banner {
     position: absolute;
     bottom: 0px;
     right: 9vw;
@@ -89,44 +90,57 @@ section{
     width: 45vh;
 }
 
-.login{
+.login {
     background-color: white;
     width: 40%;
     border-radius: 0px 20px 20px 0px;
     box-shadow: 3px 8px 22px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
 }
 
-label{
+label {
     color: #ff2d7d;
 }
 
-input{
+input {
     font-size: 17px;
-    height: 5vh;
-    margin: 10px;
+    /* height: 5vh;
+    margin: 10px; */
 }
 
-.pass{
-
+.pass {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 20% 0px;
-    position: relative;
 }
 
-.pass span{
 
-    position: absolute;
-    left: 0px;
-    margin-left: 55px;
 
+.pass .input-container {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.pass .button-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.pass .btn{
-    position: absolute;
-    right: 8.5vh;
-    top: 22vh;
+.pass .input-container .input-label {
+    text-align: left;
+}
+
+.pass .input-container .input-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+
+.pass .btn {
+    /* position: absolute; */
+    /* right: 8.5vh; */
+    /* top: 22vh; */
     padding: 10px 35px;
 }
-
