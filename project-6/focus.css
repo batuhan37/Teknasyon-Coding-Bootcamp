@@ -1,0 +1,14 @@
+
+button{
+    padding: 50px 100px;
+    font-size: 46px;
+}
+
+
+button:hover{
+    background-color: blue;
+}
+
+button:focus{
+    background-color: red;
+}

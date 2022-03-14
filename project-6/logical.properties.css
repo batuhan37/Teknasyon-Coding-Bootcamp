@@ -1,0 +1,21 @@
+.box1 {
+    width: 700px;
+    height: 300px;
+    border: solid black 2px;
+    padding: 20px;
+    text-align: left;
+}
+
+.box2 {
+    width: 700px;
+    height: 300px;
+    border: solid black 2px;
+    padding: 20px;
+    text-align: right;
+
+}
+
+span{
+    padding-inline-end: 2.5rem ;
+    }
+

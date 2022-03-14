@@ -1,0 +1,9 @@
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    /* Yatay Dikey Bulanıklık Renk */
+    text-shadow: 5px -10px 10px red;
+    width: 100%;
+    /* box-shadow: 5px 10px 10px green; */
+}
