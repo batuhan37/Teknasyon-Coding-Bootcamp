@@ -1,0 +1,73 @@
+body{
+    background-color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   list-style-type: none;
+   text-decoration: none;
+}
+body{
+    min-height: 100vh;
+}
+
+.nav__menu{
+    /* dikeyde ekrana sabitlemek için ekran aşağı indikce menüde iner */
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4d5bf9;
+    border-radius: 15px;
+    border-left: 5px solid #4d5bf9;
+    transition: 0.5s;
+}
+
+.nav__list{
+  padding-top: 80px;
+  margin-left: 10px;  
+}
+
+.nav__link{
+ padding: 0px 200px 0px 10px;
+ line-height: 100px;
+ color: aliceblue;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+ letter-spacing: 1px;
+ font-size: 20px;
+ display: flex;
+ align-items: center ;
+ 
+}
+
+.nav__link:hover{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: 0.8s;
+
+}
+.nav__link:active{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+ 
+}
+
+.nav__link-span{
+    margin-left: 50px;
+    transition: all 500ms ease;
+    overflow: hidden;
+}
+
+.nav__link ion-icon{
+font-size: 30px;
+padding-left: 20px;
+}
+
