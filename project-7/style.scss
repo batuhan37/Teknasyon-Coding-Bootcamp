@@ -18,12 +18,18 @@ body{
    top: 20px;
    left: 20px;
    bottom: 20px;
-   width: 300px;
+   
    background: #4d5bf9;
    border-radius: 15px;
    border-left: 5px solid #4d5bf9;
    box-sizing: initial;
    transition: width 0.5s;
+   width: 70px;
+   overflow: hidden;
+}
+
+.nav__menu.active{
+    width: 300px;
 }
 
 .nav__list{
@@ -70,10 +76,46 @@ font-size: 1.5em;
     
 }
 
-.active{
+.nav__item.active{
     background-color:white;
 }
 
-.active a{
+.nav__item.active a{
     color: black;
 } 
+
+.toogle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #4d5bf9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.toogle.active{
+    background-color: #4d5bf9;
+}
+
+.toogle ion-icon{
+    color: white;
+    font-size: 34px;
+    position: absolute;
+    display: none;
+}
+
+.toogle ion-icon.open,
+.toogle.active ion-icon.close{
+    display: block;
+}
+
+.toogle ion-icon.close,
+.toogle.active ion-icon.open{
+    display: none;
+}

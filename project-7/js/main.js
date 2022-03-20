@@ -1,6 +1,5 @@
 
-function newFunction() {
-    {
+    
         let item = document.querySelectorAll('.nav__item');
         for (let i = 0; i < item.length; i++) {
             item[i].onclick = function () {
@@ -13,5 +12,12 @@ function newFunction() {
                 item[i].className = 'nav__item active';
             };
         }
-    }
-}
+
+
+  
+        let menuToggle = document.querySelector('.toogle');
+        let navmenu = document.querySelector('.nav__menu')
+        menuToggle.onclick=function(){
+            menuToggle.classList.toggle('active');
+            navmenu.classList.toggle('active');
+        } 
