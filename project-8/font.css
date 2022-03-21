@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Palette+Mosaic&family=Red+Hat+Mono:ital@1&display=swap');
+
+
+.impact{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.palette{
+    font-family: 'Palette Mosaic', cursive;
+}
+.red{
+    font-family: 'Red Hat Mono', monospace;
+}
+
+
+
+/* 
+
+Serif fonts 
+Sans-serif
+Monospace fonts 
+Cursive 
+Fantasy  
+
+*/

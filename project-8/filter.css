@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 1200px;
+    height: 800px;
+    transition: 1s ;
+}
+
+
+img:hover{
+
+
+}
+
+    /* filter: blur(10px); 
+    filter: brightness(2);
+    filter: contrast(5);
+    filter: grayscale(2);
+    filter: hue-rotate(90deg);
+    filter: invert(2);
+    filter: opacity(.8);
+    filter: saturate(6);
+    filter: sepia(2);
+    filter: drop-shadow(0,0,10px,red);
+ */
