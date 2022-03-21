@@ -10,7 +10,7 @@
 * [project-3-grid](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-3-grid/)
 * [project-4](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-4) FlexBox Design
 * [project-5](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-5) Grid Design
-* [project-7](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-5) Sidebar Menu
+* [project-7](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-7) Sidebar Menu
 ## Used Technologies
 
 * Html
