@@ -22,15 +22,15 @@
             navmenu.classList.toggle('active');
         } 
 
-        item2.addEventListener("click",()=>{
-            console.log("batuhan")
-        })
+        // item2.addEventListener("click",()=>{
+        //     console.log("batuhan")
+        // })
 
 
 
-        var item3 = document.querySelectorAll('nav__item');
-        item3.forEach(element => {
-            element.addEventListener('click',(e) => {
+        // var item3 = document.querySelectorAll('nav__item');
+        // item3.forEach(element => {
+        //     element.addEventListener('click',(e) => {
                 
-            })
-        })
+        //     })
+        // })
