@@ -12,7 +12,7 @@
 * [project-5](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-5) Grid Design
 * [project-7](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-7) Sidebar Menuu
 * [project-9](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-9) Bootsrap Website
-
+* [project-10](https://batuhan37.github.io/Teknasyon-Coding-Bootcamp/project-10) SCSS example
 
 ## Used Technologies
 
